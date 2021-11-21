@@ -1,0 +1,14 @@
+server:
+  servlet:
+    context-path: /api/v1
+
+spring:
+  h2:
+    console:
+      enabled: true
+
+logging:
+  level:
+    org.springframework: INFO
+    org.springframework.web.filter.CommonsRequestLoggingFilter: DEBUG
+    com.ravensoftware: DEBUG
